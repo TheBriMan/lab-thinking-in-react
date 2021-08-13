@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
-class ProductRow extends Component {
-    render () {
-        <>
-        </>
-    }
+const ProductRow = (props) => {
+    return (
+        <tr>
+          <td>{props.name}</td>
+          <td>{props.price}</td>
+        </tr>
+    )
 }
 
 export default ProductRow;

@@ -4,8 +4,10 @@ import ProductTable from './components/ProductTable.js';
 
 class FilterableProductTable extends Component {
 render() {
+      <>
         <SearchBar />
         <ProductTable />
+      </>
     }
 }
 
